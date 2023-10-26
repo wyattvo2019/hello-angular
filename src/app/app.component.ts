@@ -7,9 +7,4 @@ import { Product } from './common/Product';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  product : Product = {
-    name: "Hat",
-    quantity: 200,
-    price: 15000
-  }
 }
