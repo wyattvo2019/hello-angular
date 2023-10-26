@@ -42,6 +42,14 @@ Run index.html -> call to App Component -> Call to Children Component in App Com
 # Write code in TypeScript but have to tranfer them to JavaScript for run
 # Create interface
 
+# 5. What is Component?
+Component = Metadata + Template + Class
+
+# 6. What is SPA - Single Page Application?
+
+# 7. Data Binding and Event Binding?
+
+# 8. Angular Directive: *ngIf and *ngFor
 
 
 [ Default]
