@@ -11,7 +11,7 @@ export class ProductDetailComponent implements OnInit {
   product: Product;
 
   constructor() {
-    this.product = new Product('','',0)
+    this.product = new Product('','',0, 0)
   }
 
   changeDetail(form: NgForm){
