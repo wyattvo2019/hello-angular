@@ -74,6 +74,7 @@ Ex: <img [src]="product.imageUrl"
 
 # 11. Create component Product Detail
 
+# 12. Create component Star Rating and hanle event
 
 [ Default]
 
