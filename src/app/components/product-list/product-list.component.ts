@@ -8,13 +8,15 @@ import { Product } from 'src/app/common/Product';
 })
 export class ProductListComponent implements OnInit {
   products: Product[] = [
-    new Product("P01", "Hat", 15),
-    new Product("P02", "Jeans", 20),
-    new Product("P03", "Shirt", 26)
+    new Product("P01", "Hat", 15,0),
+    new Product("P02", "Jeans", 20,0),
+    new Product("P03", "Shirt", 26,0)
   ]
   constructor() { }
 
   ngOnInit() {
   }
-
+  changeStarRating(message: string){
+    console.log(`Message: ${message}`)
+  }
 }
