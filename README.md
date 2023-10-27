@@ -51,6 +51,29 @@ Component = Metadata + Template + Class
 
 # 8. Angular Directive: *ngIf and *ngFor
 
+# 9. DataBinding
+Comnunicate beetween Component and DOM
+4 types:
+## 9.1. Component to DOM
+Syntax: {{value}}
+Ex: <li>Name: {{user.name}}</li>
+## 9.2. Property binding
+Syntax: [property]="value"
+Ex: <input type="email" [value]="user.email">
+## 9.3. DOM to Component
+Syntax: (event)="function"
+Ex: <button (click)="showAlert()"></button>
+## 9.4. Two way Databinding
+Syntax: [(ngModel)]="value"
+Ex: <input type="email" [(ngModel)]="user.email">
+
+# 10. Format Data in Angular
+Ex: {{productPrice | currency:'USD' | lowercase}}
+Ex: <img [src]="product.imageUrl" 
+          [title]="product.productName | uppercase">
+
+# 11. Create component Product Detail
+
 
 [ Default]
 
